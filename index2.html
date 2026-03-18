@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JA&Partners</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        :root {
+            --color-1: #171827;
+            --color-2: #3AA1B8;
+            --color-3: #D1D5DB;
+            --color-4: #161B2E;
+            --color-5: #111429;
+            --color-6: #1b1f2e;
+        }
+    </style>
+    <script type="module" src="index.js"></script>
+</head>
+<body class="bg-[#171827]">
+    
+    <nav class="nav-bar bg-[#171827] flex px-4 sm:px-6 md:px-8 lg:px-16 py-3 sm:py-4 border-b-2 border-gray-600">
+        
+        <section class="flex items-center gap-2">
+            <a href="#hero-section" class="inline-block bg-[#3AA1B8] px-2 sm:px-3 py-1 rounded text-sm sm:text-base md:text-lg">
+            </a>
+            <strong class="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300">J&A Partners</strong>
+        </section>
+        
+        <ul class="ml-auto flex items-center list-none gap-3 sm:gap-6 md:gap-8 lg:gap-12">
+            <li>
+                <a href="#hero-section" class="text-xs sm:text-sm md:text-base text-gray-300 no-underline hover:text-white transition">Home</a>
+            </li>
+            <li>
+                <a href="#services-section" class="text-xs sm:text-sm md:text-base text-gray-300 no-underline hover:text-white transition">Services</a>
+            </li>
+            <li>
+                <a href="#form-section" class="text-xs sm:text-sm md:text-base text-gray-300 no-underline hover:text-white transition">Contact</a>
+            </li>
+        </ul>
+    
+    </nav>
+    
+    <main class="cont bg-[#161B2E]">
+        
+        <section id="hero-section" class="hero-section flex flex-col lg:flex-row lg:justify-between justify-center px-4 sm:px-6 lg:px-16 py-8 sm:py-12 lg:py-16 border-b border-gray-500">
+
+            <div class="eslogan flex flex-col justify-center items-center lg:items-start lg:flex-1 text-center lg:text-left">
+                <h1 class="title text-3xl sm:text-4xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 leading-tight">
+                    AI Solutions for 
+                    <br>
+                    <strong class="text-[#3AA1B8]">
+                        Research and 
+                        <br>
+                        Business
+                    <br>
+                        Automation
+                    </strong>
+                </h1>
+                
+                <p class="description text-sm sm:text-base lg:text-xl text-gray-300 mb-8 sm:mb-12 lg:mb-14 leading-relaxed max-w-2xl">
+                    Empower your enterprise with intelligent agent workflows and custom software engineered for the next generation of operational excellence.
+                </p>
+                
+                <div class="cont-btn flex flex-col sm:flex-row justify-center lg:justify-start gap-3 sm:gap-4 lg:gap-6 w-full sm:w-auto">
+                    <button id="btn-start" class="bg-[#3AA1B8] px-4 sm:px-5 lg:px-6 py-3 sm:py-4 lg:py-5 rounded-lg sm:rounded-xl text-sm sm:text-base lg:text-lg font-bold cursor-pointer hover:opacity-90 transition whitespace-nowrap">
+                        <a href="#form-section">Get Started</a>
+                    </button>
+                    <button id="btn-services" class="text-gray-300 bg-transparent text-sm sm:text-base lg:text-lg cursor-pointer hover:text-white transition border border-gray-300 px-4 sm:px-5 lg:px-6 py-3 sm:py-4 lg:py-5 rounded-lg sm:rounded-xl">
+                        <a href="#services-section">Explore Services ↓</a>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="w-64 h-64 sm:w-72 sm:h-72 lg:w-96 lg:h-96 bg-[#1b1f2e] rounded-2xl sm:rounded-3xl relative flex justify-center items-center mx-auto lg:mx-0 mt-8 sm:mt-12 lg:mt-0 lg:ml-8 shrink-0">
+                <div class="absolute w-40 sm:w-48 lg:w-64 h-40 sm:h-48 lg:h-64 border border-[#3AA1B8] rounded-full"></div>
+                <div class="w-32 sm:w-40 lg:w-56 h-32 sm:h-40 lg:h-56 border border-[#3AA1B8] rounded-full flex justify-center items-center">
+                    <div class="w-24 sm:w-32 lg:w-40 h-24 sm:h-32 lg:h-40 border border-[#3AA1B8] rounded-full flex justify-center items-center">
+                        <svg class="w-16 sm:w-20 lg:w-24 h-16 sm:h-20 lg:h-24" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="#3AA1B8" stroke-width="1.5" fill="none"/>
+                            <path d="M8 21h8l-1.5-4h-5L8 21z" stroke="#3AA1B8" stroke-width="1.5" fill="none"/>
+                            <path d="M12 17v-4" stroke="#3AA1B8" stroke-width="1.5" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <div id="services-section" class="services-section bg-[#111429] border-b-2 border-gray-600">
+            <h1 class="title text-white text-center pt-12 sm:pt-16 md:pt-20 lg:pt-24 pb-4 sm:pb-6 text-3xl sm:text-4xl md:text-5xl font-bold">Our Expertise</h1>
+            <p class="description text-gray-300 text-center pb-8 sm:pb-10 md:pb-12 text-sm sm:text-base md:text-lg px-4">
+                Tailored AI-driven solutions designed to navigate and simplify modern business complexity.
+            </p>
+
+            <article  class="cards-section grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 pt-8 sm:pt-12 md:pt-16 pb-16 sm:pb-20 md:pb-24 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
+                <blockquote class="card bg-[#161B2E] rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-lg">
+                    <div class="icon-wrapper w-10 sm:w-12 h-10 sm:h-12 bg-[#171827] rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 sm:w-6 h-5 sm:h-6" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6" stroke="#3AA1B8" stroke-width="2" fill="none"/><polyline points="8 6 2 12 8 18" stroke="#3AA1B8" stroke-width="2" fill="none"/></svg>
+                    </div>
+                    <h3 class="text-gray-300 text-lg sm:text-xl font-semibold mt-0">Custom Software</h3>
+                    <p class="text-gray-300 text-sm sm:text-base mt-2 leading-relaxed">Bespoke development tailored to your specific infrastructure and business requirements.</p>
+                </blockquote>
+
+                <blockquote class="card bg-[#161B2E] rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-lg">
+                    <div class="icon-wrapper w-10 sm:w-12 h-10 sm:h-12 bg-[#171827] rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 sm:w-6 h-5 sm:h-6" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="#3AA1B8" stroke-width="2" fill="none"/></svg>
+                    </div>
+                    <h3 class="text-gray-300 text-lg sm:text-xl font-semibold mt-0">Intelligent Chatbots</h3>
+                    <p class="text-gray-300 text-sm sm:text-base mt-2 leading-relaxed">LLM-powered agents that understand context and provide human-like customer interactions.</p>
+                </blockquote>
+
+                <blockquote class="card bg-[#161B2E] rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-lg">
+                    <div class="icon-wrapper w-10 sm:w-12 h-10 sm:h-12 bg-[#171827] rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 sm:w-6 h-5 sm:h-6" viewBox="0 0 24 24"><path d="M23 4v6h-6" stroke="#3AA1B8" stroke-width="2" fill="none"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" stroke="#3AA1B8" stroke-width="2" fill="none"/><path d="M1 20v-6h6" stroke="#3AA1B8" stroke-width="2" fill="none"/></svg>
+                    </div>
+                    <h3 class="text-gray-300 text-lg sm:text-xl font-semibold mt-0">Agent Workflows</h3>
+                    <p class="text-gray-300 text-sm sm:text-base mt-2 leading-relaxed">Automated, multi-step agent processes that handle complex logical tasks autonomously.</p>
+                </blockquote>
+
+                <blockquote class="card bg-[#161B2E] rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-lg">
+                    <div class="icon-wrapper w-10 sm:w-12 h-10 sm:h-12 bg-[#171827] rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 sm:w-6 h-5 sm:h-6" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="#3AA1B8" stroke-width="2" fill="none"/></svg>
+                    </div>
+                    <h3 class="text-gray-300 text-lg sm:text-xl font-semibold mt-0">Automation Agents</h3>
+                    <p class="text-gray-300 text-sm sm:text-base mt-2 leading-relaxed">Replace manual labor with AI agents that manage data, spreadsheets, and routine emails.</p>
+                </blockquote>
+
+                <blockquote class="card bg-[#161B2E] rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-lg">
+                    <div class="icon-wrapper w-10 sm:w-12 h-10 sm:h-12 bg-[#171827] rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 sm:w-6 h-5 sm:h-6" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8" stroke="#3AA1B8" stroke-width="2" fill="none"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="#3AA1B8" stroke-width="2"/></svg>
+                    </div>
+                    <h3 class="text-gray-300 text-lg sm:text-xl font-semibold mt-0">AI for Research</h3>
+                    <p class="text-gray-300 text-sm sm:text-base mt-2 leading-relaxed">Rapidly synthesize large datasets and extract actionable insights with specialized AI models.</p>
+                </blockquote>
+
+                <blockquote class="card bg-[#161B2E] rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-lg">
+                    <div class="icon-wrapper w-10 sm:w-12 h-10 sm:h-12 bg-[#171827] rounded-lg flex items-center justify-center mb-3">
+                        <svg class="w-5 sm:w-6 h-5 sm:h-6" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10" stroke="#3AA1B8" stroke-width="2"/><line x1="12" y1="20" x2="12" y2="4" stroke="#3AA1B8" stroke-width="2"/><line x1="6" y1="20" x2="6" y2="14" stroke="#3AA1B8" stroke-width="2"/></svg>
+                    </div>
+                    <h3 class="text-gray-300 text-lg sm:text-xl font-semibold mt-0">Optimization</h3>
+                    <p class="text-gray-300 text-sm sm:text-base mt-2 leading-relaxed">Reduce operational costs and eliminate bottlenecks through intelligent workflow analysis.</p>
+                </blockquote>
+            </article>
+        </div>
+
+        <div class="cta-section bg-[#161B2E] p-4 sm:p-6 md:p-8 lg:p-8">
+            <blockquote class="bg-[#1b1f2e] rounded-xl sm:rounded-2xl p-8 sm:p-12 shadow-lg">
+                <h1 class="text-white text-center font-bold text-2xl sm:text-3xl md:text-4xl pb-4 sm:pb-6 md:pb-8">Ready to Evolve?</h1>
+                <p class="text-gray-300 text-center text-sm sm:text-base md:text-lg pb-6 sm:pb-8 px-4">Transform your business with AI-driven automation today. Let's build something extraordinary together.</p>
+                <div class="text-center"><button class="bg-[#3AA1B8] px-4 sm:px-5 md:px-6 py-3 sm:py-4 rounded-lg md:rounded-xl font-bold text-sm sm:text-base md:text-lg cursor-pointer hover:opacity-90 transition">Contact Us Today</button></div>
+            </blockquote>
+        </div>
+
+        <div id="form-section" class="form-section bg-[#111429] border-t-2 border-gray-600">
+            <div class="flex flex-col lg:flex-row justify-between gap-8 sm:gap-10 md:gap-12 p-4 sm:p-8 md:p-12 lg:p-20 text-white">
+                <aside class="w-full lg:w-2/5">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold pb-4 sm:pb-6">Get in Touch</h2>
+                    <p class="text-gray-300 text-sm sm:text-base md:text-lg pb-6 sm:pb-8 md:pb-10">
+                        Whether you're looking for a custom AI agent or a complete business automation overhaul, our team is ready to help you scale.
+                    </p>
+                    <div class="flex flex-col gap-4 sm:gap-5 md:gap-6">
+                        <div class="flex items-center gap-4">
+                            <span class="text-2xl bg-[#1b1f2e] p-2 rounded-lg shrink-0">📧</span>
+                            <div class="min-w-0">
+                                <strong class="block text-sm sm:text-base">Email Us</strong>
+                                <p class="text-gray-300 mt-1 text-xs sm:text-sm break-all">hello@japartners.ai</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="text-2xl bg-[#1b1f2e] p-2 rounded-lg shrink-0">📍</span>
+                            <div class="min-w-0">
+                                <strong class="block text-sm sm:text-base">Our Headquarters</strong>
+                                <p class="text-gray-300 mt-1 text-xs sm:text-sm">San Francisco, CA</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="text-2xl bg-[#1b1f2e] p-2 rounded-lg shrink-0">📞</span>
+                            <div class="min-w-0">
+                                <strong class="block text-sm sm:text-base">Call Us</strong>
+                                <p class="text-gray-300 mt-1 text-xs sm:text-sm">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <form class="w-full lg:w-1/2 bg-[#1b1f2e] p-6 sm:p-8 md:p-10 rounded-xl md:rounded-2xl grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">   
+                    <div class="flex flex-col gap-2">
+                        <label class="text-gray-300 text-sm">Full Name</label>
+                        <input type="text" placeholder="John Doe" class="bg-[#232532] border border-gray-600 p-3 sm:p-4 rounded-lg text-white placeholder-gray-400 text-sm">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label class="text-gray-300 text-sm">Work Email</label>
+                        <input type="email" placeholder="john@company.com" class="bg-[#232532] border border-gray-600 p-3 sm:p-4 rounded-lg text-white placeholder-gray-400 text-sm">
+                    </div>
+                    <div class="flex flex-col gap-2 sm:col-span-2">
+                        <label class="text-gray-300 text-sm">Company</label>
+                        <input type="text" placeholder="Company Name" class="bg-[#232532] border border-gray-600 p-3 sm:p-4 rounded-lg text-white placeholder-gray-400 text-sm">
+                    </div>
+                    <div class="flex flex-col gap-2 sm:col-span-2">
+                        <label class="text-gray-300 text-sm">Message</label>
+                        <textarea placeholder="Tell us about your project goals..." class="bg-[#232532] border border-gray-600 p-3 sm:p-4 rounded-lg text-white placeholder-gray-400 text-sm h-24 sm:h-32"></textarea>
+                    </div>
+                    <button type="submit" class="sm:col-span-2 bg-[#3AA1B8] text-white p-3 sm:p-4 rounded-lg font-bold cursor-pointer mt-2 hover:opacity-90 transition text-sm sm:text-base">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#171827] flex flex-col sm:flex-row justify-between gap-8 sm:gap-10 md:gap-12 p-6 sm:p-8 md:p-12 lg:p-20 text-gray-300 border-t-2 border-gray-600">
+        <section class="w-full sm:w-1/2 md:w-1/3">
+            <div class="flex items-center gap-2 mb-4 sm:mb-5 text-white font-bold text-sm sm:text-base">
+                <div class="bg-[#3AA1B8] px-2 py-1 rounded text-xs"></div>
+                J&A Partners
+            </div>
+            <p class="leading-relaxed text-xs sm:text-sm">Leading the charge in AI-driven business intelligence and research automation. Engineering the tools for tomorrow's industry leaders.</p>
+        </section>
+        <section>
+            <h3 class="text-white mb-4 sm:mb-5 text-xs sm:text-sm font-bold tracking-widest">QUICK LINKS</h3>
+            <ul class="list-none">
+                <li class="mb-3"><a href="#hero-section" class="no-underline text-gray-300 hover:text-white transition text-xs sm:text-sm">Home</a></li>
+                <li class="mb-3"><a href="#services-section" class="no-underline text-gray-300 hover:text-white transition text-xs sm:text-sm">Services</a></li>
+                <li class="mb-3"><a href="#form-section" class="no-underline text-gray-300 hover:text-white transition text-xs sm:text-sm">Contact</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3 class="text-white mb-4 sm:mb-5 text-xs sm:text-sm font-bold tracking-widest">CORE EXPERTISE</h3>
+            <ul class="list-none">
+                <li class="mb-3"><a href="#" class="no-underline text-gray-300 hover:text-white transition text-xs sm:text-sm">Custom AI Software</a></li>
+                <li class="mb-3"><a href="#" class="no-underline text-gray-300 hover:text-white transition text-xs sm:text-sm">Agentic Workflows</a></li>
+                <li class="mb-3"><a href="#" class="no-underline text-gray-300 hover:text-white transition text-xs sm:text-sm">Research Automation</a></li>
+                <li class="mb-3"><a href="#" class="no-underline text-gray-300 hover:text-white transition text-xs sm:text-sm">Enterprise LLMs</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3 class="text-white mb-4 sm:mb-5 text-xs sm:text-sm font-bold tracking-widest">CONNECT</h3>
+            <p class="mb-2 text-xs sm:text-sm">📧 hello@japartners.ai</p>
+            <p class="mb-2 text-xs sm:text-sm">📍 San Francisco, CA</p>
+            <p class="mb-2 text-xs sm:text-sm">📞 +1 (555) 123-4567</p>
+        </section>
+    </footer>
+</body>
+</html>
